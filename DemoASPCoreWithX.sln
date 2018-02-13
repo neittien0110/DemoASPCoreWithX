@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoASPCoreWithWebApp", "DemoASPCoreWithWebApp\DemoASPCoreWithWebApp.csproj", "{810F3E9C-F489-4176-8430-33200C550F37}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoASPCoreWithAngularJS", "DemoASPCoreWithAngularJS\DemoASPCoreWithAngularJS.csproj", "{0C3473D3-B870-446B-876C-DF9B979AABE4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoASPCoreWithMVC", "DemoASPCoreWithMVC\DemoASPCoreWithMVC.csproj", "{97F35305-4577-4C7B-97C3-99AE86A5E7EC}"
@@ -13,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{810F3E9C-F489-4176-8430-33200C550F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810F3E9C-F489-4176-8430-33200C550F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810F3E9C-F489-4176-8430-33200C550F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810F3E9C-F489-4176-8430-33200C550F37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C3473D3-B870-446B-876C-DF9B979AABE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C3473D3-B870-446B-876C-DF9B979AABE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3473D3-B870-446B-876C-DF9B979AABE4}.Release|Any CPU.ActiveCfg = Release|Any CPU

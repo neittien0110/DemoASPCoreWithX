@@ -1,0 +1,25 @@
+﻿{
+  "dir": "ltr",
+  "lang": "en-us",
+  "name": "My Sample PWA",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "https://localhost:44375/",
+  "short_name": "SamplePWA",
+  "theme_color": "transparent",
+  "description": "A sample PWA for testing purposes",
+  "orientation": "any",
+  "background_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/images/logo192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logo512x512.png",
+      "sizes": "512x512"
+    }
+  ]
+}

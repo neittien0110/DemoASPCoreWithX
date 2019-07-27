@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WebEssentials.AspNetCore.Pwa;
 
 namespace DemoASPCoreWithPWA
 {
@@ -35,7 +36,11 @@ namespace DemoASPCoreWithPWA
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddMvc();
-            services.AddProgressiveWebApp();
+            services.AddProgressiveWebApp(); //đăng kí PWA với serviceworker mặc định
+            services.AddProgressiveWebApp(new PwaOptions()   //đăng kí PWA với serviceworker tự chế
+            {
+                RegisterServiceWorker = false
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
